@@ -1,0 +1,64 @@
+* {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.admin_floor {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f5f5fa;
+}
+
+.admin {
+  height: 100vh;
+  overflow: auto;
+}
+.admin::-webkit-scrollbar {
+  display: none;
+}
+.admin_header {
+  background-color: #006eff;
+  color: white;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 8px 0;
+  margin-bottom: 16px;
+}
+.admin_body > * {
+  margin-bottom: 8px;
+  background-color: white;
+  padding: 12px 18px;
+}
+.admin_body h4 {
+  margin-bottom: 8px;
+}
+.admin_body form > div {
+  padding: 0 12px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+.admin_body form > div label {
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+.admin_body form > div textarea, .admin_body form > div input {
+  padding: 6px 12px;
+  border: none !important;
+  border-radius: 8px;
+  resize: none;
+  outline: 1px solid #808089 !important;
+}
+.admin_body-create h4 {
+  color: #5ab85c;
+}
+.admin_body-update h4 {
+  color: #ffcc00;
+}
+.admin_body-delete h4 {
+  color: #ff0f0f;
+}/*# sourceMappingURL=admin.css.map */
